@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Resources/css/index.css" type="text/css" rel="stylesheet">
+    <title>Contact | Chris Teh PhD Official Website</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- SOCIAL ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6d79d5143e.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+<!-- HEADER -->
+    <header class="header">
+        <h1 id="mainheading">Christopher Teh</h1>
+        <div class="primarynav">
+            <a href="./main.html">Home</a>
+            <a href="./research.html ">Research</a>
+            <a href="Resources/documents/202308_CV_CT.pdf" target="_blank">CV</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+    </header>
+
+<!-- MAIN CONTENT -->
+<main>
+    <div class="container">
+        <div class="contact-info">
+            <h2>Get in touch</h2>
+            <p class="contact">For all enquiries, please fill out the form down below. 
+            <br>You can also reach me via <a href="mailto:chrisctteh@gmail.com">chrisctteh@gmail.com</a> or <a href="mailto:chris.teh@unsw.edu.au">chris.teh@unsw.edu.au</a>.</p>
+        </div>
+        <div class="contact-form">
+            <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+        
+            <label for="orgname">Organisation / Institution</label>
+            <input type="text" id="orgname" name="Organisation" placeholder="Your organisation / institution" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" placeholder="Your email" required>
+            
+            <label for="subject">Your Enquiry</label>
+            <textarea id="contact-enquiry" name="Your Enquiry" placeholder="Your enquiry" style="height:10%" required></textarea>
+        
+            <input type="submit" value="Submit">
+        
+            </form>
+        </div>
+    </div>
+</main>
+
+<!-- FOOTER -->
+    <footer class="footer">
+        <div class="connect-icons">
+            <a href="https://au.linkedin.com/in/christopher-teh-20a011119" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

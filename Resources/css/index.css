@@ -1,0 +1,200 @@
+/* HEADER - GENERAL*/
+header {
+    padding: 2.5% 10%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    /* border: 3px solid black; */
+    /* position: fixed;
+    top: 0px;
+    z-index: 1; */
+}
+
+.primarynav{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Cousine', monospace;
+    /* position: relative; */
+    /* border: 3px solid black; */
+}
+
+/* FOOTER - GENERAL*/
+footer {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+/* BODY - GENERAL */
+body {
+    /* border: 3px solid black; */
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 10%);
+    line-height: 1.45;
+  }
+
+/* PAGE: HOME */
+
+main {
+    width: 100%;
+    height: auto;
+    /* margin-top: 5rem; */
+    /*  border: 3px solid black; */
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 2.5%;
+   /*  border: 3px solid black; */
+}
+
+@media only screen and (max-width: 480px) {
+
+    #main-headshot {
+        max-width: 60%;
+        height: auto;
+        padding: 1%;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+#main-intro {
+    font-family: 'Cousine', monospace;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding-top: 2.5%;
+    font-size: 1.3rem;
+    /* border: 3px solid black; */
+}
+
+#main-headshot {
+    max-width: 35%;
+    height: auto;
+    padding: 1%;
+    display: block;
+    margin: auto;
+}
+
+#lets-connect ::before {
+    content: "\a";
+    white-space: pre-line;
+}
+
+/* PAGE: RESEARCH */
+
+.main-research {
+    max-width: 100%;
+    text-align:justify;
+    margin-bottom: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.collaborators {
+    /* margin-top: -2%; */
+    font-size: 1.4rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.abstract {
+    font-style: italic;
+    font-size: 1rem;
+    font-family: 'Cousine', monospace;
+    margin-bottom: 3%;
+}
+
+/* PAGE: CONTACT */
+
+.contact-info {
+    max-width: 100%;
+    text-align:justify;
+    margin-bottom: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+.contact-form {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+}
+
+input[type=text], [type=email], textarea {
+    font-family: 'Cousine', monospace;
+    font-size: 1rem;
+}
+
+input[type=text], [type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 1%; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */ 
+  }
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+  }
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+  }
+
+/* UNIVERSAL STYLES */
+html {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 6.25rem;
+    font-family: 'Bebas Neue', sans-serif;
+    /* margin-top: 10%;
+    margin-bottom: 5%; */
+}
+
+h2 {
+    font-size: 3.1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/* SOCIAL ICONS */
+.connect-icons {
+    font-size: 1.25rem;
+}
